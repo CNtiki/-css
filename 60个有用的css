@@ -1,0 +1,9 @@
+1、垂直对齐
+如果你用CSS，则你会有困惑：我该怎么垂直对齐容器中的元素？现在，利用CSS3的Transform，可以很优雅的解决这个困惑：
+.verticalcenter{
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+}
