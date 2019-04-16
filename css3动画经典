@@ -1,0 +1,11 @@
+1、卡牌触摸上下移动
+li{
+  transition: transform 0.75s ;/*响应时间*/
+}
+li:hover{
+   transform:translate(0, -10px) ; /*上下移动的长度*/
+   -ms-transform:translate(0, -10px) ; /*IE浏览器兼容*/
+   -webkit-transform:translate(0, -10px) ; /*谷歌浏览器兼容*/
+   -o-transform:translate(0, -10px) ; /*欧朋浏览器兼容*/
+   -moz-transform:translate(0, -10px) ; /*火狐浏览器兼容*/
+}
